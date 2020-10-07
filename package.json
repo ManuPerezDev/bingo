@@ -4,7 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel src/index.html --open",
+		"build": "parcel build src/index.html -d build --public-url /bingo",
+		"deploy": "gh-pages -d build",
+		"clean": "rm -rf dist build .cache",
+		"fixcss": "stylelint --fix src/css/index.css --fix",
+		"fixjs": "eslint src/js/index.js --fix"
   },
   "keywords": [],
   "author": "",
