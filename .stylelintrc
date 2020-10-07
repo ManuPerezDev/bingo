@@ -1,0 +1,6 @@
+>>> [96m{[39m
+>>> [96m	"extends": "stylelint-config-standard"[39m
+>>> [96m}[39m
+{
+	"extends": "stylelint-config-standard"
+}
