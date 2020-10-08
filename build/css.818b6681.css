@@ -1,0 +1,2 @@
+.container-global{width:800px;height:500px;margin:auto;justify-content:space-evenly}.container,.container-global{border:1px solid;display:flex;align-items:center}.container{width:250px;height:225px;border-radius:5%;flex-flow:column}.bingo{border-radius:50%;height:250px}.card{flex-wrap:wrap;margin:auto}.card,.number{display:flex;justify-content:center}.number{width:30px;height:30px;padding:2px;margin:5px;border:1px solid;border-radius:10%;align-items:center}
+/*# sourceMappingURL=/bingo/css.818b6681.css.map */

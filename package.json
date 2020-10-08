@@ -5,11 +5,11 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel src/index.html --open",
-		"build": "parcel build src/index.html -d build --public-url /bingo",
-		"deploy": "gh-pages -d build",
-		"clean": "rm -rf dist build .cache",
-		"fixcss": "stylelint --fix src/css/index.css --fix",
-		"fixjs": "eslint src/js/index.js --fix"
+    "build": "parcel build src/index.html -d build --public-url /bingo",
+    "deploy": "gh-pages -d build",
+    "clean": "rm -rf dist build .cache",
+    "fixcss": "stylelint --fix src/css/index.css --fix",
+    "fixjs": "eslint src/js/index.js --fix"
   },
   "keywords": [],
   "author": "",
@@ -25,5 +25,8 @@
     "parcel": "^1.12.4",
     "stylelint": "^13.7.2",
     "stylelint-config-standard": "^20.0.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.20"
   }
 }
